@@ -79,6 +79,7 @@ $time = date('h:i A');
 <body>
     <main class="card">
         <p class="meta">Simple PHP for project git-testing</p>
+        <p class="meta">Simple PHP demo git-testing</p>
         <h1>Hello, <?php echo htmlspecialchars($displayName, ENT_QUOTES, 'UTF-8'); ?>!</h1>
         <p>Today is <?php echo htmlspecialchars($today, ENT_QUOTES, 'UTF-8'); ?> and the current time is <?php echo htmlspecialchars($time, ENT_QUOTES, 'UTF-8'); ?>.</p>
 
